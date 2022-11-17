@@ -1,0 +1,7 @@
+29-Aug-2022 15:08:12.966 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+29-Aug-2022 15:08:12.966 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+29-Aug-2022 15:08:12.993 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+29-Aug-2022 15:08:12.998 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+29-Aug-2022 15:08:13.018 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/CrudJava'
+29-Aug-2022 15:08:13.558 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context7712182582290212710.xml'
+29-Aug-2022 15:08:13.801 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/CrudJava'

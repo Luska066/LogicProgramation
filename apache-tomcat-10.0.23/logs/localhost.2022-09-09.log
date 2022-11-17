@@ -1,0 +1,721 @@
+09-Sep-2022 12:20:43.758 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-Sep-2022 12:20:43.759 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-Sep-2022 12:20:43.759 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@8bd86c8')
+09-Sep-2022 12:21:10.799 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-Sep-2022 12:21:10.799 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+09-Sep-2022 12:21:44.286 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+09-Sep-2022 12:21:44.286 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+09-Sep-2022 12:21:44.287 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@8bd86c8')
+09-Sep-2022 12:36:14.044 GRAVE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:         <hr>
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:          <%
+47:             for (int i = 0; i == 0; i++) {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:         <hr>
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:          <%
+47:             for (int i = 0; i == 0; i++) {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:36:32.858 GRAVE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:36:43.819 GRAVE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:36:50.694 GRAVE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"+");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:37:29.517 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+41:         <section>
+42:         
+43:        
+44:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"");%>
+45:        <article class="itens-comida">
+46:             <hr>
+47:          <%
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:39:17.820 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:             
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:             
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:             
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:             
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:39:29.669 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:            <img src="images/b.jpg">   
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:            <img src="images/b.jpg">   
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:            <img src="images/b.jpg">   
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+An error occurred at line: [47] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+44:        <article class="itens-comida">
+45:             <hr>
+46:            <img src="images/b.jpg">   
+47:          <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"&desc="+list.get(i).getDescParcial()+"");%>
+48:          <%
+49:             for (int i = 0; i == 0; i++) {
+50:         %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:44:44.637 GRAVE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [240] in the generated java file: [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\work\Catalina\localhost\Back-End#index.html\org\apache\jsp\cardapio_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [257] in the generated java file: [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\work\Catalina\localhost\Back-End#index.html\org\apache\jsp\cardapio_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [258] in the generated java file: [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\work\Catalina\localhost\Back-End#index.html\org\apache\jsp\cardapio_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [240] in the generated java file: [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\work\Catalina\localhost\Back-End#index.html\org\apache\jsp\cardapio_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [257] in the generated java file: [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\work\Catalina\localhost\Back-End#index.html\org\apache\jsp\cardapio_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [258] in the generated java file: [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\work\Catalina\localhost\Back-End#index.html\org\apache\jsp\cardapio_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:45:03.588 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [45] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+42:        
+43: 
+44:             
+45:         <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"'");%>
+46:         <hr>
+47: 
+48:        
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [45] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+42:        
+43: 
+44:             
+45:         <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"'");%>
+46:         <hr>
+47: 
+48:        
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:47:20.672 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [49] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+46:         <hr>
+47: 
+48:        
+49:            <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"'");%>
+50: 
+51:        <article class="itens-comida">
+52:                   <%
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [49] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+46:         <hr>
+47: 
+48:        
+49:            <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"'");%>
+50: 
+51:        <article class="itens-comida">
+52:                   <%
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 12:48:18.663 GRAVE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End/index.html] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [52] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+49:       
+50: 
+51:        <article class="itens-comida">
+52:             <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"'");%>
+53:                   <%
+54: 
+55:             for (int i = 0; i == 0; i++) {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [52] in the jsp file: [/cardapio.jsp]
+i cannot be resolved to a variable
+49:       
+50: 
+51:        <article class="itens-comida">
+52:             <%out.println("<a href='frmItemCardapioVIEW.jsp?id="+list.get(i).getIdComida()+"'");%>
+53:                   <%
+54: 
+55:             for (int i = 0; i == 0; i++) {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+09-Sep-2022 14:28:40.966 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+09-Sep-2022 14:28:40.966 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

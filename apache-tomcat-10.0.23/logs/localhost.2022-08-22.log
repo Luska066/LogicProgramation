@@ -1,0 +1,3064 @@
+22-Aug-2022 12:19:38.036 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 12:19:38.036 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 12:19:38.038 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@52045dbe')
+22-Aug-2022 12:25:33.976 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 12:25:33.976 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Aug-2022 12:29:24.052 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 12:29:24.052 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 12:29:24.053 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@52045dbe')
+22-Aug-2022 12:31:51.674 GRAVE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+19:        PessoaDao pesDao = new PessoaDao;
+20:        pesDao.incluirPessoa(pesDto);
+21:        
+22:       %>
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+19:        PessoaDao pesDao = new PessoaDao;
+20:        pesDao.incluirPessoa(pesDto);
+21:        
+22:       %>
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+19:        PessoaDao pesDao = new PessoaDao;
+20:        pesDao.incluirPessoa(pesDto);
+21:        
+22:       %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+19:        PessoaDao pesDao = new PessoaDao;
+20:        pesDao.incluirPessoa(pesDto);
+21:        
+22:       %>
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+19:        PessoaDao pesDao = new PessoaDao;
+20:        pesDao.incluirPessoa(pesDto);
+21:        
+22:       %>
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        pesDto.setEmailPessoa(request.getParameter("email"));
+18:        
+19:        PessoaDao pesDao = new PessoaDao;
+20:        pesDao.incluirPessoa(pesDto);
+21:        
+22:       %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:33:18.015 GRAVE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDao
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDao
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:34:14.942 GRAVE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDao
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [15] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+12:        <%
+13:            
+14:            
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:        Pessoa pesDto = new Pessoa();
+16:        pesDto.setNomePessoa(request.getParameter("nome"));
+17:        
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [21] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+18:          Pessoa pesDto = new Pessoa();
+19:        pesDto.setEmailPessoa(request.getParameter("email"));
+20:        
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDao
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+An error occurred at line: [24] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+21:        PessoaDao pesDao = new PessoaDao;
+22:        pesDao.incluirPessoa(pesDto);
+23:        
+24:         PessoaDao pesDao = new PessoaDao;
+25:        pesDao.incluirPessoa(pesDto);
+26:        
+27:       %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:38:31.693 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:38:31.694 GRAVE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.js.cadastrarPessoa_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.js.cadastrarPessoa_jsp
+		at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:159)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:39:59.463 GRAVE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:41:04.999 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [16] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+13:            String vIdPessoa = request.getParameter("id");
+14:            String vEmailPesso = request.getParameter("email");
+15:       
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Duplicate local variable pesDto
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [19] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+16:            Pessoa pesDto = new Pessoa();
+17:         pesDto.setIdPessoa(vIdPessoa);
+18:        
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:          Pessoa pesDto = new Pessoa();
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.alterarPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:45:12.866 GRAVE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:50:28.093 GRAVE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [18] in the jsp file: [/js/cadastrarPessoa.jsp]
+Pessoa cannot be resolved to a type
+15:       
+16:        
+17:        
+18:        Pessoa pesDto = new Pessoa();
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+Syntax error, insert "( )" to complete Expression
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+An error occurred at line: [22] in the jsp file: [/js/cadastrarPessoa.jsp]
+PessoaDao cannot be resolved to a type
+19:        pesDto.setIdPessoa(vIdPessoa); 
+20:        pesDto.setEmailPessoa(vEmailPesso);
+21:        
+22:        PessoaDao pesDao = new PessoaDao;
+23:        pesDao.incluirPessoa(pesDto);
+24:        
+25:        
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:52:07.949 GRAVE [http-nio-8080-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [22]
+
+19:        pesDto.setEmailPessoa(vEmailPesso);
+20:        
+21:        PessoaDao pesDao = new PessoaDao();
+22:        pesDao.incluirPessoa(pesDto);
+23:     
+24:        
+25:       %>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:24)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:144)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 12:58:38.450 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 12:58:38.450 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Aug-2022 12:58:40.857 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 12:58:40.857 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 12:58:40.858 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1b065145')
+22-Aug-2022 14:07:45.812 GRAVE [http-nio-8080-exec-40] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/Excluir.jsp] at line [19]
+
+16:     </head>
+17:     <body>
+18:           <%
+19:               int id = Integer.parseInt((request.getParameter("id")));
+20:               String nome = request.getParameter("nome");
+21:               String email = request.getParameter("email");
+22:               
+
+
+Stacktrace:] with root cause
+	java.lang.NumberFormatException: null
+		at java.lang.Integer.parseInt(Integer.java:542)
+		at java.lang.Integer.parseInt(Integer.java:615)
+		at org.apache.jsp.js.Excluir_jsp._jspService(Excluir_jsp.java:137)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 14:32:51.942 GRAVE [http-nio-8080-exec-40] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/Excluir.jsp] at line [20]
+
+17:     <body>
+18:           <%
+19:      Pessoa pesDTO = new Pessoa();
+20:      pesDTO.setIdPessoa(Integer.parseInt(request.getParameter("idPessoa")));
+21:      pesDTO.setNomePessoa(request.getParameter("nomePessoa"));
+22:      pesDTO.setEmailPessoa(request.getParameter("emailPessoa"));
+23:      
+
+
+Stacktrace:] with root cause
+	java.lang.NumberFormatException: For input string: ""
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:592)
+		at java.lang.Integer.parseInt(Integer.java:615)
+		at org.apache.jsp.js.Excluir_jsp._jspService(Excluir_jsp.java:138)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 14:51:22.028 GRAVE [http-nio-8080-exec-35] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [22]
+
+19:        pesDto.setEmailPessoa(vEmailPesso);
+20:        
+21:        PessoaDao pesDao = new PessoaDao();
+22:        pesDao.incluirPessoa(pesDto);
+23:     
+24:        
+25:       %>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:15)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:144)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 14:51:29.687 GRAVE [http-nio-8080-exec-34] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [22]
+
+19:        pesDto.setEmailPessoa(vEmailPesso);
+20:        
+21:        PessoaDao pesDao = new PessoaDao();
+22:        pesDao.incluirPessoa(pesDto);
+23:     
+24:        
+25:       %>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:15)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:144)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 14:52:27.542 GRAVE [http-nio-8080-exec-40] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [22]
+
+19:        pesDto.setEmailPessoa(vEmailPesso);
+20:        
+21:        PessoaDao pesDao = new PessoaDao();
+22:        pesDao.incluirPessoa(pesDto);
+23:     
+24:        
+25:       %>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:15)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:144)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 14:54:41.942 GRAVE [http-nio-8080-exec-35] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [25]
+
+22:        pesDto.setIdPessoa(idPessoa);
+23:        
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:     
+27:        
+28:       %>
+
+
+Stacktrace:] with root cause
+	com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'nomePessoa' at row 1
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:24)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 14:54:54.607 GRAVE [http-nio-8080-exec-36] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [25]
+
+22:        pesDto.setIdPessoa(idPessoa);
+23:        
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:     
+27:        
+28:       %>
+
+
+Stacktrace:] with root cause
+	com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'nomePessoa' at row 1
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:24)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:00:02.494 GRAVE [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [25]
+
+22:        pesDto.setEmailPessoa(vEmailPesso);
+23:        
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:     
+27:        
+28:       %>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:15)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:147)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:02:56.691 GRAVE [http-nio-8080-exec-34] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:04:02.051 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 15:04:02.051 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Aug-2022 15:04:19.970 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 15:04:19.970 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 15:04:19.971 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@45cff11c')
+22-Aug-2022 15:04:32.830 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:05:55.800 GRAVE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:06:09.781 GRAVE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:06:11.275 GRAVE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:06:12.988 GRAVE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:08:34.641 GRAVE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [js/cadastrarPessoa.jsp] at line [27]
+
+24:        PessoaDao pesDao = new PessoaDao();
+25:        pesDao.incluirPessoa(pesDto);
+26:            }catch(Exception ex){
+27:                throw new RuntimeException("Algo ocorreu mal!");
+28:        }
+29:     
+30:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:09:57.853 GRAVE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [26]
+
+23:        PessoaDao pesDao = new PessoaDao();
+24:        pesDao.incluirPessoa(pesDto);
+25:            }catch(Exception ex){
+26:                throw new RuntimeException("Algo ocorreu mal!");
+27:        }
+28:     
+29:        
+
+
+Stacktrace:] with root cause
+	java.lang.RuntimeException: Algo ocorreu mal!
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:148)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:11:31.292 GRAVE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [23]
+
+20:       
+21:        
+22:        PessoaDao pesDao = new PessoaDao();
+23:        pesDao.incluirPessoa(pesDto);
+24:           
+25:     
+26:        
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:145)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:14:03.578 GRAVE [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [23]
+
+20:       
+21:        
+22:        PessoaDao pesDao = new PessoaDao();
+23:        pesDao.incluirPessoa(pesDto);
+24:           
+25:     
+26:        
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:145)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:14:06.567 GRAVE [http-nio-8080-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [23]
+
+20:       
+21:        
+22:        PessoaDao pesDao = new PessoaDao();
+23:        pesDao.incluirPessoa(pesDto);
+24:           
+25:     
+26:        
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:145)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:18:28.579 GRAVE [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [23]
+
+20:       
+21:        
+22:        PessoaDao pesDao = new PessoaDao();
+23:        pesDao.incluirPessoa(pesDto);
+24:           
+25:     
+26:        
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:145)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:18:40.131 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [23]
+
+20:       
+21:        
+22:        PessoaDao pesDao = new PessoaDao();
+23:        pesDao.incluirPessoa(pesDto);
+24:           
+25:     
+26:        
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:145)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:21:01.800 GRAVE [http-nio-8080-exec-34] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [21]
+
+18:        pesDto.setNomePessoa(request.getParameter("nomePessoa"));
+19:       
+20:        PessoaDao ObjPessoaDAO = new PessoaDao();
+21:        ObjPessoaDAO.incluirPessoa(pesDto);
+22:        
+23:     
+24:       %>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:143)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:22:25.323 GRAVE [http-nio-8080-exec-35] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/js/cadastrarPessoa.jsp] at line [21]
+
+18:        pesDto.setNomePessoa(request.getParameter("nomePessoa"));
+19:       
+20:        PessoaDao ObjPessoaDAO = new PessoaDao();
+21:        ObjPessoaDAO.incluirPessoa(pesDto);
+22:        
+23:     
+24:       %>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: No value specified for parameter 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:379)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:19)
+		at org.apache.jsp.js.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:143)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:27:06.312 GRAVE [http-nio-8080-exec-28] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/cadastrarPessoa.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+21:        String nomePessoa = request.getParameter("nome");
+22:        pesDTO.setNomePessoa(nomePessoa);
+23:        
+24:       }
+25:        
+26:     
+27:       %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/cadastrarPessoa.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+21:        String nomePessoa = request.getParameter("nome");
+22:        pesDTO.setNomePessoa(nomePessoa);
+23:        
+24:       }
+25:        
+26:     
+27:       %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:36:40.148 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 15:36:40.148 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Aug-2022 15:36:44.340 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 15:36:44.340 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 15:36:44.341 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@389562d6')
+22-Aug-2022 15:38:14.070 GRAVE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/cadastrarPessoa.jsp] at line [28]
+
+25:        String emailPessoa = request.getParameter("email");
+26:        pesDTO.setEmailPessoa(emailPessoa);
+27:        
+28:        pesDAO.incluirPessoa(pesDTO);
+29:     
+30:  
+31:       %>
+
+
+Stacktrace:] with root cause
+	com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'nomePessoa' at row 1
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:24)
+		at org.apache.jsp.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:152)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:38:45.107 GRAVE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/cadastrarPessoa.jsp] at line [22]
+
+19:       try{
+20:        Pessoa pesDTO = new Pessoa();
+21:        PessoaDao pesDAO = new PessoaDao();
+22:        Integer idPessoa = Integer.parseInt(request.getParameter("id"));
+23:        pesDTO.setIdPessoa(idPessoa);
+24:        String nomePessoa = request.getParameter("nome");
+25:        pesDTO.setNomePessoa(nomePessoa);
+
+
+Stacktrace:] with root cause
+	java.lang.NumberFormatException: For input string: ""
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:592)
+		at java.lang.Integer.parseInt(Integer.java:615)
+		at org.apache.jsp.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:148)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 15:45:10.079 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 15:45:10.079 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Aug-2022 15:45:34.474 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 15:45:34.474 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 15:45:34.475 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@45cff11c')
+22-Aug-2022 15:47:12.447 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/cadastrarPessoa.jsp] at line [27]
+
+24:        pesDTO.setNomePessoa(request.getParameter("nome"));
+25:        pesDTO.setEmailPessoa(request.getParameter("email"));
+26:        
+27:        pesDAO.incluirPessoa(pesDTO);
+28:        
+29:       }catch(SQLException ex){
+30:           
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at Cadastro.PessoaDao.incluirPessoa(PessoaDao.java:15)
+		at org.apache.jsp.cadastrarPessoa_jsp._jspService(cadastrarPessoa_jsp.java:153)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 16:29:20.905 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 16:29:20.905 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Aug-2022 18:17:38.391 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Aug-2022 18:17:38.391 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Aug-2022 18:17:38.392 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@45cff11c')
+22-Aug-2022 19:02:57.096 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/PessoaWeb] threw exception [An exception occurred processing [/excluirPessoa.jsp] at line [23]
+
+20:         Pessoa pesDTO = new Pessoa();
+21:  
+22:         pesDTO.setIdPessoa(Integer.parseInt(request.getParameter("id")));
+23:         pesDTO.setIdPessoa(Integer.parseInt(request.getParameter("nome")));
+24:         pesDAO.excluirPessoa(pesDTO);
+25:         
+26:         
+
+
+Stacktrace:] with root cause
+	java.lang.NumberFormatException: For input string: "KAKAROTO"
+		at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+		at java.lang.Integer.parseInt(Integer.java:580)
+		at java.lang.Integer.parseInt(Integer.java:615)
+		at org.apache.jsp.excluirPessoa_jsp._jspService(excluirPessoa_jsp.java:139)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+22-Aug-2022 19:50:46.930 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Aug-2022 19:50:46.930 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

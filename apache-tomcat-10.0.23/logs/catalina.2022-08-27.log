@@ -1,0 +1,1433 @@
+27-Aug-2022 11:17:46.698 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:17:46.700 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:17:46.701 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\logging.properties
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-2UF3N87
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:17:46.702 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\temp
+27-Aug-2022 11:17:46.708 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\wooting-analog-sdk\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.]
+27-Aug-2022 11:17:47.021 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:17:47.033 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [459] milliseconds
+27-Aug-2022 11:17:47.060 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:17:47.100 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:17:47.101 GRAVE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 19 more
+27-Aug-2022 11:17:47.322 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2022 11:17:47.322 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+27-Aug-2022 11:17:47.326 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:17:47.384 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:17:47.384 GRAVE [main] org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase Exception looking up UserDatabase under key [UserDatabase]
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 21 more
+27-Aug-2022 11:17:47.449 GRAVE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+	org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:255)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:17:47.456 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+27-Aug-2022 11:17:47.475 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+27-Aug-2022 11:17:47.860 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:17:47.990 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [533] ms
+27-Aug-2022 11:17:47.990 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml]
+27-Aug-2022 11:17:47.994 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+27-Aug-2022 11:17:48.591 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:17:48.593 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has finished in [603] ms
+27-Aug-2022 11:17:48.593 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs]
+27-Aug-2022 11:17:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs] has finished in [24] ms
+27-Aug-2022 11:17:48.617 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples]
+27-Aug-2022 11:17:49.181 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples] has finished in [564] ms
+27-Aug-2022 11:17:49.181 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager]
+27-Aug-2022 11:17:49.217 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager] has finished in [36] ms
+27-Aug-2022 11:17:49.218 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager]
+27-Aug-2022 11:17:49.248 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager] has finished in [30] ms
+27-Aug-2022 11:17:49.248 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT]
+27-Aug-2022 11:17:49.269 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT] has finished in [21] ms
+27-Aug-2022 11:17:49.272 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:17:49.284 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2250] milliseconds
+27-Aug-2022 11:17:59.391 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:17:59.543 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:17:59.687 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:17:59.815 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:17:59.951 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:00.263 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:00.601 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:12.495 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.007 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.199 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.350 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.518 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.686 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.838 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:13.975 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:14.118 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:14.279 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:14.976 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:28.256 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2022 11:18:28.257 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:18:28.337 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2022 11:18:28.349 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:18:28.358 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:18:43.739 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:18:43.741 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:18:43.742 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\logging.properties
+27-Aug-2022 11:18:43.742 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-2UF3N87
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:18:43.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\temp
+27-Aug-2022 11:18:43.748 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\wooting-analog-sdk\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.]
+27-Aug-2022 11:18:43.980 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:18:43.991 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [362] milliseconds
+27-Aug-2022 11:18:44.012 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:18:44.039 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:18:44.040 GRAVE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 19 more
+27-Aug-2022 11:18:44.263 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2022 11:18:44.263 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+27-Aug-2022 11:18:44.266 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:18:44.326 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:18:44.326 GRAVE [main] org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase Exception looking up UserDatabase under key [UserDatabase]
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 21 more
+27-Aug-2022 11:18:44.390 GRAVE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+	org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:255)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:18:44.398 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+27-Aug-2022 11:18:44.411 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+27-Aug-2022 11:18:44.598 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:18:44.724 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [325] ms
+27-Aug-2022 11:18:44.724 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml]
+27-Aug-2022 11:18:44.724 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+27-Aug-2022 11:18:45.035 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:18:45.038 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has finished in [314] ms
+27-Aug-2022 11:18:45.039 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs]
+27-Aug-2022 11:18:45.054 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs] has finished in [15] ms
+27-Aug-2022 11:18:45.054 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples]
+27-Aug-2022 11:18:45.267 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples] has finished in [213] ms
+27-Aug-2022 11:18:45.267 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager]
+27-Aug-2022 11:18:45.293 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager] has finished in [26] ms
+27-Aug-2022 11:18:45.293 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager]
+27-Aug-2022 11:18:45.316 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager] has finished in [23] ms
+27-Aug-2022 11:18:45.316 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT]
+27-Aug-2022 11:18:45.333 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT] has finished in [17] ms
+27-Aug-2022 11:18:45.336 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:18:45.348 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1356] milliseconds
+27-Aug-2022 11:18:48.855 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:49.023 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:49.207 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:50.127 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:18:53.795 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:27.607 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:32.334 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:33.391 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:33.543 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:33.695 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:33.831 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:33.967 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:34.111 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:34.247 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:34.502 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:34.660 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:34.819 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:34.947 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:35.087 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:35.214 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:35.355 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:35.495 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:35.622 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:35.765 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:36.048 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:36.191 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:36.915 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:20:39.537 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2022 11:20:39.538 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:20:39.617 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2022 11:20:39.631 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:20:39.655 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:21:11.201 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+27-Aug-2022 11:21:11.202 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+27-Aug-2022 11:21:11.202 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+27-Aug-2022 11:21:11.202 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Aug-2022 11:21:11.202 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Aug-2022 11:21:11.202 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2022 11:21:11.202 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+27-Aug-2022 11:21:11.203 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Aug-2022 11:21:11.203 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2022 11:21:11.203 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:21:11.203 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\logging.properties
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-2UF3N87
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:21:11.204 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\temp
+27-Aug-2022 11:21:11.210 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\wooting-analog-sdk\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.]
+27-Aug-2022 11:21:11.466 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:21:11.477 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [389] milliseconds
+27-Aug-2022 11:21:11.496 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:21:11.514 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:21:11.515 GRAVE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 19 more
+27-Aug-2022 11:21:11.753 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2022 11:21:11.753 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+27-Aug-2022 11:21:11.756 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:21:11.817 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:21:11.818 GRAVE [main] org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase Exception looking up UserDatabase under key [UserDatabase]
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 21 more
+27-Aug-2022 11:21:11.881 GRAVE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+	org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:255)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:21:11.889 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+27-Aug-2022 11:21:11.901 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+27-Aug-2022 11:21:12.066 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:21:12.193 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [304] ms
+27-Aug-2022 11:21:12.194 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml]
+27-Aug-2022 11:21:12.194 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+27-Aug-2022 11:21:12.509 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:21:12.511 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has finished in [317] ms
+27-Aug-2022 11:21:12.512 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs]
+27-Aug-2022 11:21:12.528 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs] has finished in [16] ms
+27-Aug-2022 11:21:12.528 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples]
+27-Aug-2022 11:21:12.743 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples] has finished in [215] ms
+27-Aug-2022 11:21:12.743 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager]
+27-Aug-2022 11:21:12.764 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager] has finished in [21] ms
+27-Aug-2022 11:21:12.764 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager]
+27-Aug-2022 11:21:12.784 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager] has finished in [20] ms
+27-Aug-2022 11:21:12.784 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT]
+27-Aug-2022 11:21:12.798 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT] has finished in [14] ms
+27-Aug-2022 11:21:12.801 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:21:12.814 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1336] milliseconds
+27-Aug-2022 11:21:15.846 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:15.974 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:16.142 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:16.327 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:17.711 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:18.103 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:18.309 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:18.529 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:18.736 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:18.956 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:19.191 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:23.302 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:23.782 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:23.942 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:24.126 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:24.438 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:24.566 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:24.759 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:25.015 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:25.206 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:25.373 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:25.526 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:25.686 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:25.886 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:26.014 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:26.198 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:26.358 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:26.542 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:26.702 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:26.862 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:27.038 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:30.326 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:30.654 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:30.846 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:21:31.359 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:22:17.097 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:22:18.327 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:22:18.516 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:22:18.658 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:22:18.814 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:22:20.020 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:11.662 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:12.215 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:12.454 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:12.638 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:12.814 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:12.999 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:13.174 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:13.374 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:25:15.341 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:44.503 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:44.846 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.031 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.166 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.302 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.431 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.575 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.702 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.839 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:45.982 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:46.134 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:46.270 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:46.414 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:48.013 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:48.234 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:26:50.456 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:28:51.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Aug-2022 11:28:51.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2022 11:28:51.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:28:51.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\logging.properties
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-2UF3N87
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:28:51.209 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\temp
+27-Aug-2022 11:28:51.215 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\wooting-analog-sdk\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.]
+27-Aug-2022 11:28:51.542 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:28:51.556 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [485] milliseconds
+27-Aug-2022 11:28:51.582 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:28:51.629 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:28:51.630 GRAVE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:158)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:115)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:69)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:32)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:133)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:107)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 19 more
+27-Aug-2022 11:28:51.883 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2022 11:28:51.883 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+27-Aug-2022 11:28:51.887 GRAVE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [49] column [36]
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:28:51.945 ADVERTÊNCIA [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:28:51.945 GRAVE [main] org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase Exception looking up UserDatabase under key [UserDatabase]
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:892)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:172)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:230)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 36; O valor do atributo "password" associado a um tipo de elemento "user" não deve conter o caractere '<'.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1539)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:105)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:864)
+		... 21 more
+27-Aug-2022 11:28:52.007 GRAVE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+	org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:255)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:247)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:115)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:912)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+27-Aug-2022 11:28:52.018 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+27-Aug-2022 11:28:52.034 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+27-Aug-2022 11:28:52.231 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:28:52.324 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [305] ms
+27-Aug-2022 11:28:52.324 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml]
+27-Aug-2022 11:28:52.325 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+27-Aug-2022 11:28:52.722 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:28:52.724 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has finished in [400] ms
+27-Aug-2022 11:28:52.725 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs]
+27-Aug-2022 11:28:52.743 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs] has finished in [18] ms
+27-Aug-2022 11:28:52.743 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples]
+27-Aug-2022 11:28:53.041 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples] has finished in [298] ms
+27-Aug-2022 11:28:53.042 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager]
+27-Aug-2022 11:28:53.070 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager] has finished in [29] ms
+27-Aug-2022 11:28:53.070 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager]
+27-Aug-2022 11:28:53.096 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager] has finished in [26] ms
+27-Aug-2022 11:28:53.096 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT]
+27-Aug-2022 11:28:53.116 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT] has finished in [20] ms
+27-Aug-2022 11:28:53.119 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:28:53.135 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1580] milliseconds
+27-Aug-2022 11:29:22.157 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:22.341 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:22.517 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:22.694 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:23.030 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:23.317 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:23.510 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:23.918 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:24.391 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:24.806 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:25.191 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:25.598 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:27.778 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:42.617 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:29:50.060 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:54.985 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:56.910 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:57.301 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:57.622 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:58.614 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:58.885 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:30:59.230 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:27.405 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:28.038 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:28.294 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:28.446 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:28.614 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:28.774 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:28.949 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:29.110 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:29.262 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:29.414 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:29.590 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:29.934 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:30.109 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:30.269 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:30.469 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:30.686 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:30.966 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:31.294 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:31.566 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:32.085 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:32.365 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:32.670 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:32.942 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:33.206 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:33.510 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:33.789 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:33.958 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:34.126 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:34.382 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:34.701 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:35.544 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:35.864 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:46.462 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:46.910 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:47.093 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:47.389 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:47.542 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:47.693 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:47.869 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:48.350 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:48.525 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:48.662 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:48.837 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:48.989 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.141 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.262 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.430 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.550 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.693 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.829 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:49.966 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:50.229 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:50.374 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:50.518 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:50.645 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:50.773 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:51.576 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:51.889 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:32:59.152 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:33:00.840 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:22.094 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:22.549 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:22.725 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:22.861 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:23.006 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:23.157 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:23.430 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:23.830 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:23.974 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:24.246 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:24.486 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:24.702 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:35:27.437 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:46.390 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:46.910 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:47.094 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:47.366 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:47.725 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:47.886 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:48.062 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:48.407 ADVERTÊNCIA [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:36:48.558 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:33.360 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:33.567 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:34.640 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:35.205 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:35.445 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:35.621 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:38.094 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:38.558 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:38.789 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:38.966 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:39.125 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:39.294 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:39.622 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:39.805 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.005 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.165 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.326 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.477 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.614 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.765 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:40.918 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:41.078 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:41.238 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:39:41.382 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Foi feita uma tentativa de autenticação do usuário já bloqueado [admin]
+27-Aug-2022 11:41:22.041 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2022 11:41:22.041 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:41:22.124 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2022 11:41:22.140 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:41:22.156 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:43:49.212 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:43:49.214 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\logging.properties
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-2UF3N87
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+27-Aug-2022 11:43:49.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\temp
+27-Aug-2022 11:43:49.222 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\wooting-analog-sdk\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.]
+27-Aug-2022 11:43:49.516 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:43:49.528 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [467] milliseconds
+27-Aug-2022 11:43:49.547 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2022 11:43:49.547 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+27-Aug-2022 11:43:49.554 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+27-Aug-2022 11:43:49.566 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+27-Aug-2022 11:43:50.039 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:43:50.167 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+27-Aug-2022 11:43:50.183 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [628] ms
+27-Aug-2022 11:43:50.183 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml]
+27-Aug-2022 11:43:50.183 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+27-Aug-2022 11:43:50.526 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:43:50.529 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has finished in [346] ms
+27-Aug-2022 11:43:50.530 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs]
+27-Aug-2022 11:43:50.546 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs] has finished in [16] ms
+27-Aug-2022 11:43:50.547 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples]
+27-Aug-2022 11:43:50.778 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples] has finished in [232] ms
+27-Aug-2022 11:43:50.779 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager]
+27-Aug-2022 11:43:50.801 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager] has finished in [22] ms
+27-Aug-2022 11:43:50.802 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager]
+27-Aug-2022 11:43:50.830 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager] has finished in [28] ms
+27-Aug-2022 11:43:50.831 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT]
+27-Aug-2022 11:43:50.852 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT] has finished in [21] ms
+27-Aug-2022 11:43:50.856 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:43:50.871 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1342] milliseconds
+27-Aug-2022 11:43:53.767 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CrudJava]
+27-Aug-2022 11:43:53.798 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+27-Aug-2022 11:43:53.799 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+27-Aug-2022 11:43:54.039 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2022 11:43:54.041 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [243] ms
+27-Aug-2022 11:43:54.045 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CrudJava]] after start() had already been called. The second call will be ignored.
+27-Aug-2022 11:46:12.393 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.tomcat.util.http.Parameters.processParameters Character decoding failed. Parameter [desc] with value [Meia rosa 1000100%%20algod%C3%A3o.] has been ignored. Note that the name and value quoted here may be corrupted due to the failed decoding. Use debug level logging to see the original, non-corrupted values.
+ Nota: próximas ocorrências do parâmetro erro serão registradas no log do tipo DEBUG
+27-Aug-2022 11:49:29.581 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2022 11:49:29.582 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:49:29.661 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2022 11:49:29.672 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2022 11:49:29.698 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

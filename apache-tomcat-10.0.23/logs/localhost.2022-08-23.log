@@ -1,0 +1,240 @@
+23-Aug-2022 02:14:55.886 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Aug-2022 02:14:55.886 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Aug-2022 02:14:55.887 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@45cff11c')
+23-Aug-2022 03:50:58.132 GRAVE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/CrudJava] threw exception [An exception occurred processing [/includeProduct.jsp] at line [28]
+
+25:        pDTO.setDescricaoProduto(request.getParameter("descricaoProduto"));
+26: 
+27:        
+28:        pDAO.Include(pDTO);
+29:        
+30:        %>
+31:     </body>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values('Lucas','Digite a descricao')' at line 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at DAO.PessoaDAO.Include(PessoaDAO.java:28)
+		at org.apache.jsp.includeProduct_jsp._jspService(includeProduct_jsp.java:146)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Aug-2022 03:50:58.132 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/CrudJava] threw exception [An exception occurred processing [/includeProduct.jsp] at line [28]
+
+25:        pDTO.setDescricaoProduto(request.getParameter("descricaoProduto"));
+26: 
+27:        
+28:        pDAO.Include(pDTO);
+29:        
+30:        %>
+31:     </body>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values('Lucas','Digite a descricao')' at line 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at DAO.PessoaDAO.Include(PessoaDAO.java:28)
+		at org.apache.jsp.includeProduct_jsp._jspService(includeProduct_jsp.java:146)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Aug-2022 03:52:07.316 GRAVE [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/CrudJava] threw exception [An exception occurred processing [/includeProduct.jsp] at line [28]
+
+25:        pDTO.setDescricaoProduto(request.getParameter("descricaoProduto"));
+26: 
+27:        
+28:        pDAO.Include(pDTO);
+29:        
+30:        %>
+31:     </body>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values('Lucas','Digite a yujy')' at line 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at DAO.PessoaDAO.Include(PessoaDAO.java:28)
+		at org.apache.jsp.includeProduct_jsp._jspService(includeProduct_jsp.java:146)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Aug-2022 03:55:12.880 GRAVE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/CrudJava] threw exception [An exception occurred processing [/includeProduct.jsp] at line [28]
+
+25:        pDTO.setDescricaoProduto(request.getParameter("descricaoProduto"));
+26: 
+27:        
+28:        pDAO.Include(pDTO);
+29:        
+30:        %>
+31:     </body>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values('Lucas','Digite a yujy')' at line 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at DAO.PessoaDAO.Include(PessoaDAO.java:28)
+		at org.apache.jsp.includeProduct_jsp._jspService(includeProduct_jsp.java:146)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Aug-2022 03:55:18.623 GRAVE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/CrudJava] threw exception [An exception occurred processing [/includeProduct.jsp] at line [28]
+
+25:        pDTO.setDescricaoProduto(request.getParameter("descricaoProduto"));
+26: 
+27:        
+28:        pDAO.Include(pDTO);
+29:        
+30:        %>
+31:     </body>
+
+
+Stacktrace:] with root cause
+	java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values('Lucas','yjyjy')' at line 1
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+		at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+		at DAO.PessoaDAO.Include(PessoaDAO.java:28)
+		at org.apache.jsp.includeProduct_jsp._jspService(includeProduct_jsp.java:146)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Aug-2022 04:14:19.567 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Aug-2022 04:14:19.567 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

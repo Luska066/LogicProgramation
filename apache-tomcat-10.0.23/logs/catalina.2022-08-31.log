@@ -1,0 +1,198 @@
+31-Aug-2022 17:08:25.441 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+31-Aug-2022 17:08:25.442 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+31-Aug-2022 17:08:25.443 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2022 17:08:25.443 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+31-Aug-2022 17:08:25.443 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\logging.properties
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-2UF3N87
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23
+31-Aug-2022 17:08:25.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\temp
+31-Aug-2022 17:08:25.450 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\wooting-analog-sdk\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.]
+31-Aug-2022 17:08:25.669 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Aug-2022 17:08:25.683 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [368] milliseconds
+31-Aug-2022 17:08:25.717 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Aug-2022 17:08:25.717 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+31-Aug-2022 17:08:25.726 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\BoxGuard.xml]
+31-Aug-2022 17:08:25.742 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/BoxGuard] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\BoxGuard.xml] has been ignored
+31-Aug-2022 17:08:25.770 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\BoxGuard.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3527942a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4834)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4972)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\User\OneDrive\Área de Trabalho\BoxGuard\BoxGuard\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+31-Aug-2022 17:08:25.826 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\BoxGuard.xml] has finished in [98] ms
+31-Aug-2022 17:08:25.826 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml]
+31-Aug-2022 17:08:25.830 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudJava] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has been ignored
+31-Aug-2022 17:08:26.256 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:08:26.404 ADVERTÊNCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [130] milliseconds.
+31-Aug-2022 17:08:26.417 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\CrudJava.xml] has finished in [591] ms
+31-Aug-2022 17:08:26.417 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml]
+31-Aug-2022 17:08:26.421 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PessoaWeb] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has been ignored
+31-Aug-2022 17:08:27.025 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:08:27.027 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\PessoaWeb.xml] has finished in [610] ms
+31-Aug-2022 17:08:27.028 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs]
+31-Aug-2022 17:08:27.048 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\docs] has finished in [20] ms
+31-Aug-2022 17:08:27.048 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples]
+31-Aug-2022 17:08:27.630 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\examples] has finished in [582] ms
+31-Aug-2022 17:08:27.630 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager]
+31-Aug-2022 17:08:27.662 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\host-manager] has finished in [32] ms
+31-Aug-2022 17:08:27.663 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager]
+31-Aug-2022 17:08:27.694 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\manager] has finished in [32] ms
+31-Aug-2022 17:08:27.694 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT]
+31-Aug-2022 17:08:27.723 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\webapps\ROOT] has finished in [29] ms
+31-Aug-2022 17:08:27.727 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Aug-2022 17:08:27.739 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2055] milliseconds
+31-Aug-2022 17:08:29.606 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\Back-End.xml]
+31-Aug-2022 17:08:29.607 ADVERTÊNCIA [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Back-End] in deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\Back-End.xml] has been ignored
+31-Aug-2022 17:08:29.645 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\User\OneDrive\Documentos\NetBeansProjects\apache-tomcat-10.0.23\conf\Catalina\localhost\Back-End.xml] has finished in [39] ms
+31-Aug-2022 17:08:29.649 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Back-End]] after start() had already been called. The second call will be ignored.
+31-Aug-2022 17:10:05.215 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:10:05.241 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:10:45.017 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:10:45.039 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:12:02.745 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:12:02.767 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:12:19.877 INFORMAÇÕES [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:12:19.892 INFORMAÇÕES [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:12:24.138 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:12:24.155 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:12:38.226 INFORMAÇÕES [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:12:38.250 INFORMAÇÕES [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:12:55.435 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:12:55.451 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:13:45.682 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:13:45.707 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:13:47.288 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:13:47.302 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:14:25.965 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:14:25.989 INFORMAÇÕES [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:14:46.977 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:14:46.993 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:15:05.330 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:15:05.353 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:15:08.036 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:15:08.053 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:15:27.058 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:15:27.071 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:15:43.018 INFORMAÇÕES [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:15:43.050 INFORMAÇÕES [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:16:38.161 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:16:38.183 INFORMAÇÕES [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:17:49.836 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:17:49.856 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:18:16.601 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:18:16.619 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:18:17.015 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:18:17.028 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:18:42.625 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:18:42.649 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:19:12.995 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:19:13.019 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:19:29.027 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:19:29.043 INFORMAÇÕES [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:20:01.602 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:20:01.626 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:21:03.097 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:21:03.121 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:21:45.904 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:21:45.927 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:22:36.016 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:22:36.041 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:23:26.713 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:23:26.734 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:28:16.058 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:28:16.079 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:30:02.673 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:30:02.695 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:30:08.097 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:30:08.111 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:31:38.634 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:31:38.658 INFORMAÇÕES [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:31:44.010 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:31:44.025 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:31:52.150 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:31:52.166 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:31:53.254 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:31:53.267 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:32:40.616 INFORMAÇÕES [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:32:40.639 INFORMAÇÕES [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:33:26.127 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:33:26.349 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:33:26.350 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:33:26.741 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:33:26.765 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:33:26.766 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:33:48.223 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:33:48.484 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:33:48.486 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:33:48.894 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:33:49.140 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:33:49.141 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:33:49.679 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:33:49.923 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:33:49.925 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:35:39.313 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:35:39.555 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:35:39.556 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed
+31-Aug-2022 17:37:26.049 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] has started
+31-Aug-2022 17:37:26.301 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2022 17:37:26.302 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Back-End] is completed

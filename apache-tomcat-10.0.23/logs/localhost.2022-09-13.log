@@ -1,0 +1,101 @@
+13-Sep-2022 00:16:58.432 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 00:16:58.432 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 00:17:36.393 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 00:17:36.393 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 00:17:36.394 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6e041285')
+13-Sep-2022 00:30:50.162 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Back-End] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [100] in the jsp file: [/card.jsp]
+Invalid character constant
+97:                 ArrayList<ComidaDTO> list = cDAO.getAllComida();
+98: 
+99:                 for (int i = 0; i == 0; i++) {
+100:                     out.println("<a href='frmItemVIEW.jsp?id=" + list.get(i).getIdComida() + "&name=" + list.get(i).getNomeComida() + "&descCompleta=" + list.get(i).getDescCompleta()+"&price="+list.get(i).getPrice()+"&img=images/milk.png"+'>");
+101:                 }
+102:             %>
+103:             <article class="comida">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [100] in the jsp file: [/card.jsp]
+Invalid character constant
+97:                 ArrayList<ComidaDTO> list = cDAO.getAllComida();
+98: 
+99:                 for (int i = 0; i == 0; i++) {
+100:                     out.println("<a href='frmItemVIEW.jsp?id=" + list.get(i).getIdComida() + "&name=" + list.get(i).getNomeComida() + "&descCompleta=" + list.get(i).getDescCompleta()+"&price="+list.get(i).getPrice()+"&img=images/milk.png"+'>");
+101:                 }
+102:             %>
+103:             <article class="comida">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+13-Sep-2022 00:50:34.179 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 00:50:34.179 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 00:51:06.187 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 00:51:06.187 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 00:51:06.188 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6e041285')
+13-Sep-2022 01:04:17.350 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 01:04:17.350 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 01:05:11.295 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 01:05:11.295 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 01:05:11.296 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@267dc982')
+13-Sep-2022 01:10:57.808 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 01:10:57.808 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 01:11:02.556 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 01:11:02.556 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 01:11:02.557 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2839e3c8')
+13-Sep-2022 01:12:32.020 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 01:12:32.020 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 11:22:49.089 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 11:22:49.089 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 11:22:49.091 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@267dc982')
+13-Sep-2022 12:16:12.819 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 12:16:12.819 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 14:54:40.253 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 14:54:40.253 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 14:54:40.255 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@267dc982')
+13-Sep-2022 15:00:21.808 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 15:00:21.808 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+13-Sep-2022 15:05:05.918 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 15:05:05.918 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 15:05:05.919 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@267dc982')
+13-Sep-2022 18:59:30.003 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+13-Sep-2022 18:59:30.003 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+13-Sep-2022 18:59:30.004 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@26586b74')
+13-Sep-2022 19:06:50.805 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+13-Sep-2022 19:06:50.805 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

@@ -1,0 +1,5 @@
+01-Sep-2022 00:12:12.892 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+01-Sep-2022 00:12:12.892 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+01-Sep-2022 00:12:12.892 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+01-Sep-2022 00:12:12.898 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+01-Sep-2022 00:12:12.918 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Back-End'
